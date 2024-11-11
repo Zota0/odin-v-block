@@ -1,0 +1,42 @@
+{
+    "window" : {
+        "size": {
+            "width": 1920,
+            "height": 1080
+        },
+        "max_fps": 240,
+        "icon": "icon.ico",
+        "vsync": true,
+        "resizable": true,
+        "maximized": false,
+        "fullscreen": false,
+        "start_minimized": false,
+        "start_maximized": false,
+        "start_fullscreen": false
+    },
+    "input": {
+        "sensitivity": {
+            "scroll": 0.1,
+            "zoomed": 0.2,
+            "zooming": 0.1,
+            "move": {
+                "x": 0.1,
+                "y": 0.1
+            }
+        },
+        "invert": {
+            "x": false,
+            "y": false,
+            "scroll": false,
+            "rev_zoom": false
+        }
+    },
+    "renderer": {
+        "antialiasing": true,
+        "msaa": 4,
+        "shadow": true,
+        "shadow_map_size": 2048,
+        "shadow_bias": 0.005,
+        "shadow_normal_bias": 0.001
+    }
+}
